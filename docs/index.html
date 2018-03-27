@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vadim Goncharov</title>
 </head>
 <script>
@@ -16,7 +17,15 @@
 <style>
     body {
         padding: 50px;
-        font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+        font: 14px / 20px "Lucida Grande", Helvetica, Arial, sans-serif;
+    }
+    @media screen and (max-width: 768px) {
+        body {
+            padding: 10px;
+        }
+        h1 + p {
+            max-width: 200px;
+        }
     }
 
     a {
@@ -25,7 +34,7 @@
 </style>
 <body>
     <h1>Vadim Goncharov</h1>
-    <p>Frontend Engineer, Interactive Designer, Game Developer</p>
+    <p>Frontend&nbsp;Engineer, Interactive&nbsp;Designer, Game&nbsp;Developer</p>
     <p>vg@vadimgoncharov.ru</p>
     <a href="https://www.github.com/vadimgoncharov">Github</a>
     <a href="https://www.facebook.com/vadimgoncharov">Facebook</a>
